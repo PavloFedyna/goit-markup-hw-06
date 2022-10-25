@@ -489,8 +489,8 @@
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form>
           <div class="modal-wrap">
-            <label
-              ><span class="modal-label">Ім'я</span>
+            <label class="modal-label"
+              ><span class="modal-label-text">Ім'я</span>
               <span class="inpot-wrap">
                 <input class="modal-input" type="text" name="user" />
                 <svg class="modal-inpot-icon" width="18" height="18">
@@ -500,8 +500,8 @@
             </label>
           </div>
           <div class="modal-wrap">
-            <label
-              ><span class="modal-label">Телефон</span>
+            <label class="modal-label"
+              ><span class="modal-label-text">Телефон</span>
               <span class="inpot-wrap">
                 <input class="modal-input" type="tel" name="tel" />
                 <svg class="modal-inpot-icon" width="18" height="18">
@@ -511,8 +511,8 @@
             </label>
           </div>
           <div class="modal-wrap">
-            <label
-              ><span class="modal-label">Пошта</span>
+            <label class="modal-label"
+              ><span class="modal-label-text">Пошта</span>
               <span class="inpot-wrap">
                 <input class="modal-input" type="email" name="mail" />
                 <svg class="modal-inpot-icon" width="18" height="18">
@@ -521,15 +521,17 @@
               </span>
             </label>
           </div>
-          <label class="modal-label"
-            >Коментар
-            <textarea
-              class="modal-comment"
-              name="user-comment"
-              placeholder="Введіть текст"
-            ></textarea>
-          </label>
-          <div class="">
+            <div class="modal-wrap">
+              <label class="modal-label-comment"
+                ><span class="modal-label-text">Коментар</span>
+                <textarea
+                  class="modal-comment"
+                  name="user-comment"
+                  placeholder="Введіть текст"
+                ></textarea>
+              </label>
+            </div>
+          <div>
             <input
               class="input-check visually-hidden"
               type="checkbox"
