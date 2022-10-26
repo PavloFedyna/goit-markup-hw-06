@@ -529,12 +529,9 @@ img {
   background-color: transparent;
   color: #ffffff;
   margin-right: 12px;
-  padding-left: 5px;
-}
-
-.footer-connection-input::placeholder{
   padding-left: 16px;
 }
+
 
 .form-connection{
   display: flex;
@@ -750,9 +747,13 @@ img {
   padding-left: 42px;
 }
 
+.modal-wrap-comment{
+  margin-bottom: 20px;
+}
+
 .modal-wrap{
-  /* margin-bottom: 10px; */
-  }
+  margin-bottom: 10px;
+}
 
 .inpot-wrap{
   display: block;
@@ -790,7 +791,7 @@ img {
 }
 .modal-label-comment {
   display: block;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 /* .modal-comment:hover, */
@@ -817,7 +818,7 @@ img {
 
 .modal-label {
   display: block;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 /* ___________CHECKBOX_________ */
@@ -828,6 +829,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin-bottom: 30px; */
+}
+.modal-wrap-check{
   margin-bottom: 30px;
 }
 
